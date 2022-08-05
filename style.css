@@ -1,0 +1,46 @@
+.container{
+    display:flex;
+    background-color:#161616;
+    border-radius: 30px;
+    height: 646px;
+    width: 1321px; 
+    margin: auto;
+    margin-top: 60px; 
+    position: relative; 
+}
+.image img{
+    width: 581px;
+    height: 613px;
+    padding-top: 33px;
+    padding-right: 60px;
+}
+.header{
+    padding-left: 80px;
+}
+.header h1{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 90px;
+}
+.header p{
+    position: absolute;
+    color:#FFFFFF;
+    width: 400px;
+    bottom: 26%; 
+}
+.header button{
+    position: absolute;
+    background-color:#DD0000;
+    padding: 20px;
+    border-radius: 5px;
+     bottom: 12%; 
+    width: 160px;
+}
+.header button a{
+    text-decoration: none;
+    color: #fff;
+}
+.header button i{
+    color: #fff;
+    padding-left: 10px;
+}
