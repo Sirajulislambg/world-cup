@@ -1,0 +1,179 @@
+.container{
+    width: 1321px; 
+    margin: 0 auto;
+}
+
+
+.headerr{
+    display:flex;
+    background-color:#161616;
+    border-radius: 30px;
+    height: 646px;
+    width: 1321px; 
+    margin: auto;
+    margin-top: 60px; 
+    position: relative; 
+}
+.image img{
+    width: 581px;
+    height: 613px;
+    padding-top: 33px;
+    padding-right: 60px;
+}
+.header{
+    padding-left: 80px;
+}
+.header h1{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 90px;
+}
+.header p{
+    position: absolute;
+    color:#FFFFFF;
+    width: 400px;
+    bottom: 26%; 
+}
+.header button{
+    position: absolute;
+    background-color:#DD0000;
+    padding: 20px;
+    border-radius: 5px;
+     bottom: 12%; 
+    width: 160px;
+}
+.header button a{
+    text-decoration: none;
+    color: #fff;
+}
+.header button i{
+    color: #fff;
+    padding-left: 10px;
+}
+.matchs{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    background-color:#161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.matchs a{
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    color:#161616;
+    height: 36px;
+    padding-top: 21px;
+
+}
+.matchs .blog{
+    background-color: white;
+    color: black;
+}
+.matchs a:first-child{
+    background-color:red;
+    color: white;
+}
+/* .match{
+    background-color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    color:#161616
+} */
+.manubar{
+     display: flex; 
+}
+.players{
+    padding-top: 100px;
+    padding-left: 20px;
+    width: 312px;
+    height: 242px;
+    /* background-color:antiquewhite; */
+}
+.try{
+    display: flex;
+    padding-top: 30px;
+}
+.player{
+    /* display: flex; */
+    border-radius: 10px;
+    background-color:antiquewhite;
+    border: 2px solid red;
+    padding-left: 20px;
+   
+}
+h3{
+    padding-left: 30px;
+}
+.playerasw{
+    padding-top: 20px;
+     padding-left: 15px;
+    padding-right: 18px;
+    padding-bottom: 15px; 
+    margin-left: 30px;
+}
+.playerasw button{
+    height: 30px;
+    width: 111px;
+    color: #161616;
+    border-radius: 10px;
+    background: none;
+}
+.playersdf{
+    position: relative;
+}
+.chat{
+    padding-left: 40px;
+}
+.chats{
+    position: absolute;
+    top: 4px;
+    left: 29px;
+}
+.chatsx{
+    position: absolute;
+    top: 3px;
+    left: 100px;
+}
+.seraj{
+    display: flex;
+    justify-content: end;
+}
+#footer{
+    background-color: #161616;
+    width: 100%;
+    height: 444px;
+}
+.footer-text h1{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.footer-list ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list ul li{
+    list-style: none;
+    padding-top: 30px;
+}
+.footer-list ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.kdjfhhjv{
+    padding-top: 100px;
+}
+hr{
+    color: azure;
+    height: 0px;
+}
