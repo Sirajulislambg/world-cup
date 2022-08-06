@@ -144,9 +144,10 @@
     display: flex;
     justify-content: end;
     margin-right: 13px;
+    
 }
 .psrtss{
-    height: 243px;
+    height: 234px;
 }
 .chat{
     padding-left: 40px;
