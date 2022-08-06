@@ -96,8 +96,6 @@
     padding-top: 100px;
     padding-left: 20px;
     width: 312px;
-    height: 242px;
-    /* background-color:antiquewhite; */
 }
 .try{
     display: flex;
@@ -106,13 +104,14 @@
 .player{
     /* display: flex; */
     border-radius: 10px;
-    background-color:antiquewhite;
-    border: 2px solid red;
+/*     background-color:antiquewhite;
+    border: 2px solid red; */
     padding-left: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
    
 }
-h3{
-    padding-left: 30px;
+.player h3{
+    padding-left: 50px;
 }
 .playerasw{
     padding-top: 20px;
@@ -121,6 +120,15 @@ h3{
     padding-bottom: 15px; 
     margin-left: 30px;
 }
+.ghjkl{
+    padding-left: 34px;
+}
+.try h4{
+    padding-left: 32px;
+}
+.playerasw h4{
+    padding-right: 10px;
+}
 .playerasw button{
     height: 30px;
     width: 111px;
@@ -128,8 +136,17 @@ h3{
     border-radius: 10px;
     background: none;
 }
-.playersdf{
-    position: relative;
+.playersdf p{
+    padding: 20px 0;
+    padding-left: 50px;
+}
+.partyuss{
+    display: flex;
+    justify-content: end;
+    margin-right: 13px;
+}
+.psrtss{
+    height: 243px;
 }
 .chat{
     padding-left: 40px;
